@@ -3,9 +3,11 @@
 	#include <stdio.h>
 
 	 /**
-    	* main - check if a number is positive, negative or zero.    	*
-    	* return: Always 0 (Success)
- 	*/
+    	  * main - check if a number is positive, negative or zero.  
+	  *
+    	  * return: Always 0 (Success)
+	  *
+ 	  */
  int main(void)
  {
       int n;
