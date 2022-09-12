@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h" 
-	/**
-	 * main - entrypoint
-	 * 
-	 * return: always 0
-	 *
-	 */
+/**
+ * main - entrypoint
+ * 
+ * return: always 0
+ *
+ */
 int main(void)
 {
 	int n; 
