@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Determine if last number(l) is either greater than 5, less than 6 or is 0
+ * main - check if last number(l) is either greater than 5, less than 6 or is 0
  *
  * Return: ALways 0 (Success)
  */
