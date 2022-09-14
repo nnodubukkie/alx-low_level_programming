@@ -1,19 +1,13 @@
-#include <stdio.h>
-/**
- * main - write a program that prints _putchar
- *
- * Return: Always 0 (success)
- */
-int main(void)
-{
-	int i, sz;
-	int str[] = {45, 112, 117, 116, 99, 104, 97, 114};
+#include <unistd.h>
 
-	sz = sizeof(str) / sizeof(int);
-	for (i = 0; i < sz; i++)
-	{
-		putchar(str[i]);
-	}
-	putchar('\n');	
-	return (0);
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1
+ * On error, -1 is returned, and errno is set appropriately
+ */
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
 }
