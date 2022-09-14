@@ -10,15 +10,15 @@
  */
 int main(void)
 {
-	putchar('_');  
+	putchar('_');
 	putchar('p');
 	putchar('u');
 	putchar('t');
 	putchar('c');
-	putchar('h');                                                                                     
-	putchar('a');                                                                                     
+	putchar('h');
+	putchar('a');
 	putchar('r');
- 	putchar('\n');
-
+	putchar('\n');
+	
 	return 	(0);
 }
