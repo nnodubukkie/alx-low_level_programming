@@ -1,1 +1,1 @@
-print _putchar
+3-islower
