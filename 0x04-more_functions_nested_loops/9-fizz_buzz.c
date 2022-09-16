@@ -10,8 +10,8 @@ int main(void)
 	int h;
 	
 	h = 1;
-	printf("%d", n);
-	for (n = 2; n <= 100; n++)
+	printf("%d", h);
+	for (h = 2; h <= 100; h++)
 	{
 		if ((h % 3 == 0) && (h % 5 == 0))
 		{
@@ -27,7 +27,7 @@ int main(void)
 		}
 		else
 		{
-			printf(" %d", n);
+			printf(" %d", h);
 		}
 	}
 	printf("\n");
