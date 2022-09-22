@@ -2,9 +2,7 @@ C - More pointers, arrays and strings
 
 0 - Write a function that concatenates two strings.
 
-1 - Write a function that concatenates two0 strings.
-
-2 - Write a function that copies a string.
+1 - Write a function that copies a string.
 
 3 - Write a function that compares two strings.
 
@@ -16,3 +14,4 @@ C - More pointers, arrays and strings
 
 7 - Write a function that encodes a string into 1337.
 
+8 - Write a function that encodes a string using rot13.
