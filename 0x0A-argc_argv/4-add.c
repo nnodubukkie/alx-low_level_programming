@@ -59,7 +59,7 @@ sum += str_to_int;
 /*Condition if one of the number contains symbols that are not digits*/
 else
 {
-printF("Error\n");
+printf("Error\n");
 return (1);
 }
 
