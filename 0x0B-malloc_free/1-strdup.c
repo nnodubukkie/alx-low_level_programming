@@ -5,14 +5,14 @@
  * Return: 1
  */
 
-int _strlen(char *s)
+int _strlen(char *s);
 {
 unsigned int i;
 
 i = 0;
 while (s[i] != '\0') /*count character of string*/
 {
-	i++
+	i++;
 }
 
 return (i);
@@ -48,16 +48,14 @@ char *_strdup(char *str)
 {
 	char *dst;
 	unsigned int size;
-	
+
 	if (str == 0)
 	{
 		return (NULL);
 	}
 
 	size = _strlen(str) = i;
-	
-	dst = (char *) malloc(size *sized(char));
-
+	dst = (char *) malloc(size * sized(char));
 	if (dst == 0)
 	{
 		return (NULL);
@@ -65,4 +63,3 @@ char *_strdup(char *str)
 	_strcpy(dst, str);
 	return (dst);
 }
- 
