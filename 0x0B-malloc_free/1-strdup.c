@@ -2,7 +2,7 @@
 
 /**
  * _strdup - returns a pointer to a newly allocated
- *space in memory, which contains a copy of 
+ *space in memory, which contains a copy of
  *string given as a parameter.
  *@str: string to be copied
  *
