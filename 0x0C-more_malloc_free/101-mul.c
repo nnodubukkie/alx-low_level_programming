@@ -190,7 +190,7 @@ int main(int argc, char *argv[])
 	}
 	if (*(argv[1]) == '0')
 		argv[1] = iterate_zeroes(argv[1]);
-	if (*(argc[2]) == '0')
+	if (*(argv[2]) == '0')
 		argv[2] = iterate_zeroes(argv[2]);
 	if (*(argv[1]) == '\0' || *(argv[2]) == '\0')
 	{
